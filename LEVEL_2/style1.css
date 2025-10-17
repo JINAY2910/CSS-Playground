@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    /* or -> border: 2px solid red; */
+    text-align: center;
+    border-radius: 10px; /* it will look like circle if -> border-radius: 50% */
+
+    padding: 25px; /* same padding in all directions  */
+    /* or */
+    /* padding: 25px 50px 75px 100px; */ 
+    /* or */
+    /* padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 100px; -> clockwise */
+
+    margin: 25px; /* same margin in all directions  */
+    /* or */
+    /* margin: 25px 50px 75px 100px; */ 
+    /* or */
+    /* margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 100px; -> clockwise */
+}
+h1{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid red;
+    text-align: center;
+    border-radius: 10px;
+}

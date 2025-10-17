@@ -1,0 +1,23 @@
+#box{
+    width: 80px;
+    height: 230px;
+    border: 2px solid black;
+}
+#r, #y, #g {
+    width: 60px;
+    height: 60px;
+    border: 2px black solid;
+    border-radius: 50%;
+    margin: 10px auto; /* 10px spacing top & bottom between the lights
+    Automatically centered left & right */
+}
+#r {
+    background: red;
+}
+#y {
+    background: yellow;
+}
+#g {
+    background: green;
+}
+

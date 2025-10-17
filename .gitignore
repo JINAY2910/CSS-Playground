@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+
+# VS Code or editor settings
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.log
+*.tmp
+
+# Optional: node_modules if you ever use CSS frameworks with npm
+node_modules/

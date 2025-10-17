@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    /* width: 200px; -> to understand flex-shrink */
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: flex-start; */
+}
+
+#box1{
+    background-color: aqua;
+    flex-grow: 1;
+}
+#box2{
+    background-color: violet;
+    height: 200px;
+    /* flex-shrink: 0.5; */
+    flex-grow: 1;
+}
+#box3{
+    background-color: lime;
+    height: 75px;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: grey;
+    /* align-self: flex-end; -> higher priority than properties set on container */
+}
