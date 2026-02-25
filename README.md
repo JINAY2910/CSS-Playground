@@ -23,7 +23,7 @@ It is designed to help you learn CSS step by step with hands-on practice. 💻�
 ## 📝 Handwritten PDF Notes
 
 A complete **handwritten PDF** covering all CSS topics is included:  
-[View CSS Notes](CSS-NOTES.pdf)
+[View CSS Notes](CSS_NOTES.pdf)
 
 - Use these notes to understand concepts and follow along with the examples.  
 
